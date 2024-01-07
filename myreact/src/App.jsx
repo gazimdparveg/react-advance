@@ -2,6 +2,8 @@ import { useState } from 'react'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import From from './From';
+import FaceDate from './FaceDate';
+import ShowImage from './ShowImage';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -9,6 +11,8 @@ function App() {
   return (
     <>
      <From/> 
+     <FaceDate/>
+     <ShowImage/>
     </>
   )
 }
